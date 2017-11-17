@@ -63,6 +63,10 @@ $("#add-train").on("click", function(event) {
     dateAdded: firebase.database.ServerValue.TIMESTAMP
   });
 
+    $("#name-input").val("");
+      $("#destination-input").val("");
+        $("#firstTrain-input").val("");
+          $("#frequency-input").val("");
 });
 
 // function to load the data on the screen
